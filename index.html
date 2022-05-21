@@ -111,11 +111,19 @@
       <div class="d-md-flex justify-content-center align-items-center">
           <div class="col-md">
             <form action="https://formsubmit.co/admin@murraymotorsports.racing" method="POST">
-                <input type="text" name="FirstName" class="pb-2 pt-2" placeholder="First Name" required>
-                <input type="text" name="LastName" placeholder="Last Name" required>
+                <div class="pt-2 pb-2">
+                  <input type="text" name="FirstName" placeholder="First Name" required>
+                </div>
+                <div class="pt-2 pb-2">
+                  <input type="text" name="LastName" placeholder="Last Name" required>
+                </div>
+                <div class="pt-2 pb-2">
                 <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="pt-2 pb-2 justify-content-center">
                 <input type="hidden" name="_next" value="https://www.murraymotorsports.racing/thankyou.html">
-              <button type="submit" class="btn btn-dark">Join Our Email List</button>
+                <button type="submit" class="btn btn-dark">Join Our Email List</button>
+                </div>
             </form>
           </div>
           <div class="col-md">
